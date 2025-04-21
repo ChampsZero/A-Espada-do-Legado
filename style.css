@@ -115,6 +115,7 @@ header.hidden {
   margin-top: 0;
 }
 
+
 .hero {
   display: flex;
   flex-direction: row;
@@ -147,7 +148,7 @@ header.hidden {
   justify-content: center;
   gap: 40px;
   margin-top: 20px;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
 }
 
 .feature h3 {
@@ -170,7 +171,7 @@ header.hidden {
 }
 
 .feature2 {
-  background-image: url("assets/feature2.png");
+  background-image: url("assets/CavaleiroCastelo2.PNG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -196,6 +197,7 @@ header.hidden {
 .feature {
   display: flex;
   justify-content: center;
+  align-items: center;  /*centralizar texto horizontalmente */
   flex-direction: column;
   padding: 20px 40px;
   border-radius: 10px;
@@ -277,7 +279,7 @@ footer::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("assets/footergif.gif");
+  background-image: url("assets/gameFooter2.gif");
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
